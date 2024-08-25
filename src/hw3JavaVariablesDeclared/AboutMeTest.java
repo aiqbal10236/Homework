@@ -17,7 +17,7 @@ public class AboutMeTest {
         asifiqbal.myGrade=4.99;
         asifiqbal.myGender='M';
         asifiqbal.fullTimeStudent=true;
-        asifiqbal.aboutMe();
+        asifiqbal.aboutMe(); //
         
         AboutMe alex=new AboutMe();
         alex.myName="Alex Brown";
