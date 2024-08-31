@@ -1,45 +1,51 @@
 package hw3JavaVariablesDeclared;
 
-import javax.security.auth.login.CredentialException;
-
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		AboutMe asifiqbal= new AboutMe();
+		//a variable is declared and initialized, the constructor is declared and initialized, and the method is implemented and initialized
+		AboutMe asif=new AboutMe();
+	    asif.myName="Asif Iqbal";
+	    asif.myYearlySalary=35000;
+	    asif.myHeight=5.45f;
+	    asif.myGender='M';
+	    asif.myUSACitizen=false;
+	    asif.myAge=35;
+	    asif.myRent=5600;
+	    asif.mySaving=65000;
+	    asif.myRating=5.8888;
+	    asif.aboutMe();
+	    
+	    AboutMe alex=new AboutMe();
+	    alex.myName="Alex Manson";
+	    alex.myYearlySalary=45000;
+	    alex.myHeight=4.6f;
+	    alex.myGender='F';
+	    alex.myUSACitizen=true;
+	    alex.myAge=45;
+	    alex.myRent=7200;
+	    alex.mySaving=7652;
+	    alex.myRating=8.8888;
+	    alex.aboutMe();
+	    
+	    
+	    
+	    
 	
-	 //Class instantiated Class and constructor initialized.	}
-        asifiqbal.myName="Asif Iqbal";
-        asifiqbal.myAge=36;
-        asifiqbal.myCourseFee=3500;
-        asifiqbal.myIncome=10000;
-        asifiqbal.myFutureSavings=10000000000l;
-        asifiqbal.myHeight=5.4f;
-        asifiqbal.myGrade=4.99;
-        asifiqbal.myGender='M';
-        asifiqbal.fullTimeStudent=true;
-        asifiqbal.aboutMe(); 
-        
-        AboutMe alex=new AboutMe();
-        alex.myName="Alex Brown";
-        alex.myAge=26;
-        alex.myCourseFee=3000;
-        alex.myIncome=75000
-        alex.myFutureSavings=200000000000l;
-        alex.myHeight=5.11f;
-        alex.myGrade=4.75;
-        alex.fulltimeStudent=false;
-        alex.aboutMe();
-        
-        
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 	
-	}    
-        
-        
-        
-        
-        
-        
-        
-        
-        
+	
+	
+	
+	
 }
